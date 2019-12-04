@@ -11,9 +11,9 @@ public class Screen {
      * @param brand This variable save the brand of the screen
      * @param inches This variable save the inches of the screen
      */
-    public Screen(String brand, float pulgadas){
+    public Screen(String brand, float inches){
         this.brand=brand;
-        this.inches=pulgadas;
+        this.inches=inches;
         
     }
         public Screen(){

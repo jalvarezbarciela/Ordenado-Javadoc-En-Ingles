@@ -10,11 +10,11 @@ public class Computer {
     private CPU CPU=new CPU();
     /**
      * Builder with parameters
-     * @param type 
-     * @param brand
-     * @param inches
-     * @param speed
-     * @param memory 
+     * @param type This variable save the type of the mouse
+     * @param brand This variable save the brand of the screen
+     * @param inches This variable save the inches of the screen
+     * @param speed This variable save the speed of the CPU
+     * @param memory This variable save the memory of the CPU
      */
     public Computer(String type,String brand,float inches,int speed,int memory){
         mouse=new Mouse(type);
@@ -27,23 +27,23 @@ public class Computer {
     }
     /**
      * Method to set values
-     * @param type 
+     * @param type This variable save the type of the mouse
      */
     public void setRato(String type){
         mouse=new Mouse(type);
     }
     /**
      * Method to set values
-     * @param brand
-     * @param inches 
+     * @param brand This variable save the brand of the screen
+     * @param inches This variable save the inches of the screen
      */
     public void setPantalla(String brand,float inches){
         screen=new Screen(brand,inches);
     }
     /**
      * Method to set values
-     * @param speed
-     * @param memory 
+     * @param speed This variable save the speed of the CPU
+     * @param memory This variable save the memory of the CPU
      */
     public void setCPU(int speed,int memory){
         CPU=new CPU(speed,memory);

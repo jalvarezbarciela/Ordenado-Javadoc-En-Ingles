@@ -9,12 +9,12 @@ public class CPU {
     private int memory;
     /**
      * Builder whit parameters
-     * @param velocidade This variable save the speed of the CPU
-     * @param memoria This variable save the memory of the CPU
+     * @param speed This variable save the speed of the CPU
+     * @param memory This variable save the memory of the CPU
      */
-    public CPU(int velocidade, int memoria) {
-        this.speed = velocidade;
-        this.memory = memoria;
+    public CPU(int speed, int memory) {
+        this.speed = speed;
+        this.memory = memory;
     }
     public CPU() {
 
